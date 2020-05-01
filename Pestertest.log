@@ -1,0 +1,27 @@
+PS C:\work\PowerShell\LogicGates\PesterTest> INvoke-Pester
+
+
+
+
+
+
+Describing Validationの動作確認
+   Context 正常系の確認
+    [+] 1なら0が返るはず 243ms
+    [+] 0なら0が返るはず 97ms
+   Context 異常系の確認
+-message Validation Check Error: please assign 0 or 1!
+    [+] 2なら-1が返るはず 208ms
+-message Validation Check Error: please assign 0 or 1!
+    [+] -1なら-1が返るはず 106ms
+-message Validation Check Error: please assign 0 or 1!
+    [+] 'A'なら-1が返るはず 108ms
+Describing Conjunctionの動作確認
+   Context 正常系の確認
+    [+] 1+1なら1が返るはず 299ms
+    [+] 1+0なら1が返るはず 101ms
+    [+] 0+1なら1が返るはず 98ms
+    [+] 0+0なら1が返るはず 95ms
+Tests completed in 1.36s
+Passed: 9 Failed: 0 Skipped: 0 Pending: 0 Inconclusive: 0
+PS C:\work\PowerShell\LogicGates\PesterTest> 
