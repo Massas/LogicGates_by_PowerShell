@@ -55,7 +55,7 @@ Describing ExclusiveDisjunctionの動作確認
     [+] 1 1なら0が返るはず 73ms
     [+] 1 0なら1が返るはず 21ms
     [+] 0 1なら1が返るはず 21ms
-    [+] 0 0なら1が返るはず 32ms
+    [+] 0 0なら0が返るはず 32ms
 Describing ConjunctionTestの動作確認
    Context 正常系の確認
     [+] 1 1なら1が返るはず 96ms
