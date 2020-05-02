@@ -1,27 +1,68 @@
-PS C:\work\PowerShell\LogicGates\PesterTest> INvoke-Pester
-
-
-
-
-
+PS C:\work\PowerShell\LogicGates\PesterTest> Invoke-Pester .\PesterTest1.Tests.ps1
 
 Describing Validationの動作確認
    Context 正常系の確認
-    [+] 1なら0が返るはず 243ms
-    [+] 0なら0が返るはず 97ms
-   Context 異常系の確認
+    [+] 1なら0が返るはず 44ms
+    [+] 0なら0が返るはず 13ms
+   Context 異異常常系系のの確確認認
 -message Validation Check Error: please assign 0 or 1!
-    [+] 2なら-1が返るはず 208ms
+    [+] 2なら-1が返るはず 37ms
+-message Validation Check Error: please assign length 1 data!
+    [+] -1なら-1が返るはず 10ms
 -message Validation Check Error: please assign 0 or 1!
-    [+] -1なら-1が返るはず 106ms
--message Validation Check Error: please assign 0 or 1!
-    [+] 'A'なら-1が返るはず 108ms
+    [+] 'A'なら-1が返るはず 13ms
+-message Validation Check Error: please assign length 1 data!
+    [+] 01なら-1が返るはず 16ms
+-message Validation Check Error: please assign length 1 data!
+    [+] 10なら-1が返るはず 11ms
+-message Validation Check Error: please assign length 1 data!
+    [+] 11なら-1が返るはず 25ms
 Describing Conjunctionの動作確認
    Context 正常系の確認
-    [+] 1+1なら1が返るはず 299ms
-    [+] 1+0なら1が返るはず 101ms
-    [+] 0+1なら1が返るはず 98ms
-    [+] 0+0なら1が返るはず 95ms
-Tests completed in 1.36s
-Passed: 9 Failed: 0 Skipped: 0 Pending: 0 Inconclusive: 0
-PS C:\work\PowerShell\LogicGates\PesterTest> 
+    [+] 1 1なら1が返るはず 69ms
+    [+] 1 0なら0が返るはず 13ms
+    [+] 0 1なら0が返るはず 12ms
+    [+] 0 0なら0が返るはず 15ms
+Describing Disjunctionの動作確認
+   Context 正常系の確認
+    [+] 1 1なら1が返るはず 60ms
+    [+] 1 0なら1が返るはず 11ms
+    [+] 0 1なら1が返るはず 17ms
+    [+] 0 0なら0が返るはず 14ms
+Describing Negationの動作確認
+   Context 正常系の確認
+    [+] 1なら0が返るはず 60ms
+    [+] 0なら1が返るはず 11ms
+Describing NonConjunctionの動作確認
+   Context 正常系の確認
+    [+] 1 1なら0が返るはず 84ms
+    [+] 1 0なら1が返るはず 36ms
+    [+] 0 1なら1が返るはず 18ms
+    [+] 0 0なら1が返るはず 11ms
+Describing NonDisjunctionの動作確認
+   Context 正常系の確認
+    [+] 1 1なら0が返るはず 75ms
+    [+] 1 0なら0が返るはず 19ms
+    [+] 0 1なら0が返るはず 24ms
+    [+] 0 0なら1が返るはず 26ms
+Describing ExclusiveDisjunctionの動作確認
+   Context 正常系の確認
+    [+] 1 1なら0が返るはず 80ms
+    [+] 1 0なら1が返るはず 26ms
+    [+] 0 1なら1が返るはず 22ms
+    [+] 0 0なら1が返るはず 27ms
+Describing ConjunctionTestの動作確認
+   Context 正常系の確認
+    [+] 1 1なら1が返るはず 118ms
+    [+] 1 0なら0が返るはず 22ms
+    [+] 0 1なら0が返るはず 39ms
+    [+] 0 0なら0が返るはず 25ms
+Describing DisjunctionTestの動作確認
+   Context 正常系の確認
+    [+] 1 1なら1が返るはず 81ms
+    [+] 1 0なら1が返るはず 19ms
+    [+] 0 1なら1が返るはず 23ms
+    [+] 0 0なら0が返るはず 20ms
+Tests completed in 1.26s
+Passed: 38 Failed: 0 Skipped: 0 Pending: 0 Inconclusive: 0
+PS C:\work\PowerShell\LogicGates\PesterTest>
