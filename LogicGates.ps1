@@ -46,7 +46,7 @@ function NonConjunction($a, $b){
     // ˜_—Ï‚ğo‚·
     $c = Conjunction $a $b
     // ”Û’è‚É‚µ‚Ä’l‚ğ”½“]‚·‚é
-    $d = Negation($c)
+    $d = Negation $c
     return $d
 }
 
