@@ -1,68 +1,73 @@
 PS C:\work\PowerShell\LogicGates\PesterTest> Invoke-Pester .\PesterTest1.Tests.ps1
 
-Describing Validation‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 44ms
-    [+] 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 13ms
-   Context ˆÙˆÙííŒnŒn‚Ì‚ÌŠmŠm”F”F
+
+
+
+
+
+Describing Validationã®ã®å‹•å‹•ä½œä½œç¢ºç¢ºèªèª
+   Context æ­£æ­£å¸¸å¸¸ç³»ç³»ã®ã®ç¢ºç¢ºèªèª
+    [+] 1ãªãªã‚‰ã‚‰0ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 57ms
+    [+] 0ãªãªã‚‰ã‚‰0ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 11ms
+   Context ç•°ç•°å¸¸å¸¸ç³»ç³»ã®ã®ç¢ºç¢ºèªèª
 -message Validation Check Error: please assign 0 or 1!
-    [+] 2‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 37ms
+    [+] 2ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 35ms
 -message Validation Check Error: please assign length 1 data!
-    [+] -1‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 10ms
+    [+] -1ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 18ms
 -message Validation Check Error: please assign 0 or 1!
-    [+] 'A'‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 13ms
+    [+] 'A'ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 9ms
 -message Validation Check Error: please assign length 1 data!
-    [+] 01‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 16ms
+    [+] 01ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 14ms
 -message Validation Check Error: please assign length 1 data!
-    [+] 10‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 11ms
+    [+] 10ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 14ms
 -message Validation Check Error: please assign length 1 data!
-    [+] 11‚È‚ç-1‚ª•Ô‚é‚Í‚¸ 25ms
-Describing Conjunction‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 69ms
-    [+] 1 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 13ms
-    [+] 0 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 12ms
-    [+] 0 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 15ms
-Describing Disjunction‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 60ms
-    [+] 1 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 11ms
-    [+] 0 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 17ms
-    [+] 0 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 14ms
-Describing Negation‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 60ms
-    [+] 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 11ms
-Describing NonConjunction‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 84ms
-    [+] 1 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 36ms
-    [+] 0 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 18ms
-    [+] 0 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 11ms
-Describing NonDisjunction‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 75ms
-    [+] 1 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 19ms
-    [+] 0 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 24ms
-    [+] 0 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 26ms
-Describing ExclusiveDisjunction‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 80ms
-    [+] 1 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 26ms
-    [+] 0 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 22ms
-    [+] 0 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 27ms
-Describing ConjunctionTest‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 118ms
-    [+] 1 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 22ms
-    [+] 0 1‚È‚ç0‚ª•Ô‚é‚Í‚¸ 39ms
-    [+] 0 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 25ms
-Describing DisjunctionTest‚Ì“®ìŠm”F
-   Context ³íŒn‚ÌŠm”F
-    [+] 1 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 81ms
-    [+] 1 0‚È‚ç1‚ª•Ô‚é‚Í‚¸ 19ms
-    [+] 0 1‚È‚ç1‚ª•Ô‚é‚Í‚¸ 23ms
-    [+] 0 0‚È‚ç0‚ª•Ô‚é‚Í‚¸ 20ms
-Tests completed in 1.26s
+    [+] 11ãªãªã‚‰ã‚‰-1ãŒãŒè¿”è¿”ã‚‹ã‚‹ã¯ã¯ãšãš 16ms
+Describing Conjunctionã®ã®å‹•å‹•ä½œä½œç¢ºç¢ºèªèª
+   Context æ­£æ­£å¸¸å¸¸ç³»ç³»ã®ã®ç¢ºç¢ºèªèª
+    [+] 1 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 56ms
+    [+] 1 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 10ms
+    [+] 0 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 14ms
+    [+] 0 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 10ms
+Describing Disjunctionã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 58ms
+    [+] 1 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 10ms
+    [+] 0 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 14ms
+    [+] 0 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 10ms
+Describing Negationã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 64ms
+    [+] 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 12ms
+Describing NonConjunctionã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 74ms
+    [+] 1 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 25ms
+    [+] 0 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 25ms
+    [+] 0 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 25ms
+Describing NonDisjunctionã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 69ms
+    [+] 1 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 29ms
+    [+] 0 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 29ms
+    [+] 0 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 21ms
+Describing ExclusiveDisjunctionã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 73ms
+    [+] 1 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 21ms
+    [+] 0 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 21ms
+    [+] 0 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 32ms
+Describing ConjunctionTestã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 96ms
+    [+] 1 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 33ms
+    [+] 0 1ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 25ms
+    [+] 0 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 14ms
+Describing DisjunctionTestã®å‹•ä½œç¢ºèª
+   Context æ­£å¸¸ç³»ã®ç¢ºèª
+    [+] 1 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 69ms
+    [+] 1 0ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 26ms
+    [+] 0 1ãªã‚‰1ãŒè¿”ã‚‹ã¯ãš 24ms
+    [+] 0 0ãªã‚‰0ãŒè¿”ã‚‹ã¯ãš 25ms
+Tests completed in 1.21s
 Passed: 38 Failed: 0 Skipped: 0 Pending: 0 Inconclusive: 0
-PS C:\work\PowerShell\LogicGates\PesterTest>
+PS C:\work\PowerShell\LogicGates\PesterTest> 
